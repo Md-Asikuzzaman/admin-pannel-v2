@@ -1,0 +1,112 @@
+@media screen and (max-width: 1250px) {
+  nav {
+    display: none;
+  }
+
+  nav.nav--active {
+    display: block;
+  }
+  nav.active {
+    width: 300px;
+  }
+  nav.active .logo__wrapper .right__side {
+    opacity: 1 !important;
+    visibility: visible !important;
+    pointer-events: auto !important;
+  }
+
+  nav.active .nav__items-wrapper .items__right {
+    opacity: 1 !important;
+    visibility: visible !important;
+    pointer-events: auto !important;
+  }
+
+  nav.active .nav__items-wrapper .items__right {
+    opacity: 1 !important;
+    visibility: visible !important;
+    pointer-events: auto !important;
+  }
+
+  nav .small-logo {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto !important;
+  }
+
+  nav {
+    position: absolute;
+    top: 80px;
+    height: calc(100% - 80px);
+    /* display: none; */
+  }
+
+  nav.nav--active {
+    display: block !important;
+    top: 80px;
+    left: 0;
+    height: calc(100% - 80px);
+    opacity: 1;
+  }
+
+  .main {
+    left: 0;
+    width: 100%;
+  }
+
+  header {
+    width: 100%;
+  }
+  nav.active ~ .main {
+    left: 0;
+    width: 100%;
+  }
+  nav.active ~ .main header {
+    width: 100%;
+  }
+  .main__body,
+  nav.active ~ .main__body {
+    width: 100%;
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 875px) {
+  .hero__section h2 {
+    padding: 20px;
+  }
+  .welcome__box {
+    justify-content: center !important;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .sales__table__section .card {
+    overflow-y: scroll !important;
+  }
+  .stock__section .card {
+    overflow-y: scroll !important;
+  }
+
+  footer .footer__text {
+    justify-content: center !important;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  header {
+    gap: 1rem;
+  }
+  .search__bar {
+    display: none !important;
+  }
+
+  .search__bar-mobile {
+    display: block !important;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .user__info-item {
+    display: none !important;
+  }
+}
